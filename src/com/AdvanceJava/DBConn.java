@@ -12,11 +12,6 @@ public class DBConn
     {
         try
         {   String url, name, pwd;
-            // Note: Steps to develop a DB application:
-            // 1. Loading a jdbc driver
-            // 2. Establishing a connection
-            // 3. Performing the task
-            // 4. Closing the connection
             System.out.println("Hello");
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Note:
