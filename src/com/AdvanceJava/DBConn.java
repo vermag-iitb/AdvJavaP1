@@ -43,7 +43,7 @@ public class DBConn
         }
     }
 }
-//    docker exec -t -i e34cdf8a96ef /bin/bash
+//    docker exec -t -i 47beaee18772 /bin/bash
 
 
 //%JAVA_HOME%\bin\keytool -importcert -keystore D:\bamboo-agent-home\bambooKeyStore.jks -storepass changeit -file D:\DigiCertGlobalRootCA.crt -alias "DigiCertGlobalRootCA"

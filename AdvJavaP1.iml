@@ -12,16 +12,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../DataBaseJars/mssql-jdbc-10.2.0.jre8.jar!/" />
+          <root url="jar://$MODULE_DIR$/../DataBaseJars/sqljdbc_10.2/enu/mssql-jdbc-10.2.3.jre8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../DataBaseJars/jtds-1.3.1-dist/jtds-1.3.1.jar!/" />
